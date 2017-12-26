@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang="{{ lang }}">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+ {% include "partials/" + lang + "/head.njk" %}
+</head>
+<body>
+{% include "partials/common/ga.njk" %}
+<div class="l-container">
+ {% include "partials/common/header.njk" %}
+ {% block content %}{% endblock %}
+ {% include "partials/" + lang + "/footer.njk" %}
+</div>
+</body>
+</html>
