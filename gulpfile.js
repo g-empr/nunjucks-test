@@ -7,7 +7,7 @@ var paths = {
   'nunjucks': {
     'srcRoot': './njk/src/',
     'src': './njk/src/main/**/*.njk',
-    'dest': './njk/src/dist/',
+    'dest': './njk/dist/',
   }
 }
 // 説明は後述
