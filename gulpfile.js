@@ -10,7 +10,7 @@ var paths = {
     'dest': './njk/dist/',
   }
 }
-// 説明は後述
+
 function getDataForFile(file) {
   return {
     file: file
